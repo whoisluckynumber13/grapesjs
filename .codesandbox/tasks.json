@@ -1,0 +1,105 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "docs": {
+      "name": "docs",
+      "command": "yarn docs"
+    },
+    "docs:api": {
+      "name": "docs:api",
+      "command": "yarn docs:api"
+    },
+    "docs:build-vp": {
+      "name": "docs:build-vp",
+      "command": "yarn docs:build-vp"
+    },
+    "docs:build": {
+      "name": "docs:build",
+      "command": "yarn docs:build"
+    },
+    "docs:deploy": {
+      "name": "docs:deploy",
+      "command": "yarn docs:deploy"
+    },
+    "lint": {
+      "name": "lint",
+      "command": "yarn lint"
+    },
+    "check": {
+      "name": "check",
+      "command": "yarn check"
+    },
+    "lint:ts": {
+      "name": "lint:ts",
+      "command": "yarn lint:ts"
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build"
+    },
+    "build-all": {
+      "name": "build-all",
+      "command": "yarn build-all"
+    },
+    "build:js": {
+      "name": "build:js",
+      "command": "yarn build:js"
+    },
+    "build:mjs": {
+      "name": "build:mjs",
+      "command": "yarn build:mjs"
+    },
+    "build:css": {
+      "name": "build:css",
+      "command": "yarn build:css"
+    },
+    "ts:build": {
+      "name": "ts:build",
+      "command": "yarn ts:build"
+    },
+    "ts:check": {
+      "name": "ts:check",
+      "command": "yarn ts:check"
+    },
+    "ts:build:check": {
+      "name": "ts:build:check",
+      "command": "yarn ts:build:check"
+    },
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": true,
+      "preview": {
+        "port": 8080
+      }
+    },
+    "start:js": {
+      "name": "start:js",
+      "command": "yarn start:js"
+    },
+    "start:css": {
+      "name": "start:css",
+      "command": "yarn start:css"
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format"
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test"
+    },
+    "test:dev": {
+      "name": "test:dev",
+      "command": "yarn test:dev"
+    }
+  }
+}
